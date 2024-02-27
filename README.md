@@ -30,3 +30,10 @@ To use the chatbot:
 
 Install the required dependencies using `pip`:
 
+##Working
+
+
+https://github.com/vish1108/Chatbot-Data/assets/68471486/1b9e761e-cd83-4a19-92a9-ae24cf8aa73f
+
+
+
