@@ -1,7 +1,7 @@
 {"intents":  [
 
     {"tag": "greetings",
-    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?", "how are you"],
     "responses": ["Hello!", "Hey!", "What can i do for you?"]
     },
     {"tag": "goodbye",
@@ -22,7 +22,7 @@
     },
     {"tag": "name",
     "patterns": ["what is your name", "what shoudl i call you?", "what's your name", "who are you", "what are you","what can i call you","What do you do?"],
-    "responses": ["You can call me WebWise", "i am WebWise", "i am WebWise assistent of MR. Vishal Waghmare"]
+    "responses": ["You can call me WebWise", "i am WebWise", "i am WebWise assistant of Mr. Vishal Waghmare"]
     },
     {"tag": "skills",
     "patterns": ["What skill Vishal have", "What skills Vishal have", "skills vishal have", "skills", "technical skills vishal have", "technical skills", "skills"],
@@ -55,6 +55,11 @@
     {"tag": "kjdjkj",
     "patterns": ["nldl zd,mnklsdl", "dnvkjSFILGjlrsn", "njlflLKfjklAEJkl", "dfkjhrfjelfjlias;enj", "kahfkljefkljae",  "fkjEKLfj;kaef;ke", "jaelfjiaejjhde" ],
     "responses": ["Sorry i can't understand :("]
+    }
+    ,
+    {"tag": "eat",
+    "patterns": ["what vishal like to eat", "which food vishal like", "vishal's favorite food", "vishal like to eat what", "best food",  "food", "eat" ],
+    "responses": ["Mr. Vishal is big foodie he likes to eat Samosas, Pav Bhaji, Vada Pav, Dosa, and the list is long BTW 😅. "]
     }
 
 ]}

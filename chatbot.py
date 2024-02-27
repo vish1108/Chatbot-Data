@@ -68,6 +68,11 @@ print("Go! Bot is running!")
 
 while True:
     message = input("")
+
+    if message.lower() in ['exit', 'quit']:
+        print("Closing the bot. Goodbye!")
+        break
+    
     ints = predict_class(message)
     res = get_response(ints, intents)
     print(res)
